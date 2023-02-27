@@ -1,0 +1,22 @@
+.big-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: fit-content;
+    /* align-items: flex-start; */
+    border-radius: 100%;
+    padding: 40px;
+    /* width: calc((20px*3) + (50px*2) + (1rem*2)); */
+    /* height: calc((20px*3) + (50px*2) + (1rem*2)); */
+    border: 1px solid blue;
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    margin: auto;
+}
+.item-1{
+   height: 20px;
+   width: 20px;
+   border-radius: 20px;
+   border: 1px solid chartreuse;
+
+}

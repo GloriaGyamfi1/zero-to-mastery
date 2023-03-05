@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device">
+        <link rel="icon" href="../favicon.ico" type="image/x-icon">
+        <title>Java Intro</title>
+    </head>
+    <style>
+        div{
+            margin: auto;
+            height: 50px;
+            width: 50px;
+            border: 1px solid blue;
+            background: blue;
+            border-radius: 50%;
+            padding: 100px;
+        }
+    </style>
+    <body>
+        <div onclick="myfunction()" id="circle" ></div>
+        <script>
+            document.getElementById("circle").style.background="blue"
+         function myfunction(){
+           if ( document.getElementById("circle").style.background==="blue"){
+            document.getElementById("circle").style.background="green";
+           }
+           else {
+            document.getElementById("circle").style.background="blue";
+           }
+
+         }
+        </script>
+    </body>
+</html>

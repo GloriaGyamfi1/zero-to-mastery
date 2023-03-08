@@ -1,0 +1,36 @@
+.parent-container{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    background-color: rgb 230 230 230;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    grid-auto-rows: 50px;
+    overflow: hidden;
+   
+}
+.button{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        border-radius: 0px;
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        column-gap: 5px;
+        row-gap: 5px;
+       
+}
+.child-main{
+    grid-column: 1 / span 3;
+}
+.child-content{
+    grid-column: 1 / -1 ;
+    font-size: 32px;
+}
+.child-zero{
+    grid-column: 1 / span 3;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}

@@ -6,7 +6,11 @@ for (button of document.getElementsByTagName ("button")) {
       text =  ev.target.innerText
         if (text==="clear") {
             display.innerHTML=""
-        } else {
+        }
+        else if (text==="=") { 
+            display.innerHTML= eval(display.innerHTML)
+        }
+        else {
             display.innerHTML += text  
         }
        
